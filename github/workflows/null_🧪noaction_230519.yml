@@ -1,0 +1,8 @@
+name: garden-observation-record
+on: [push]
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Passive inspection
+        run: echo "🟢 Passive. No action required."
